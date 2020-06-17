@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        h1 {
+            border-style: solid;
+            border-width: 0 0 1px 0;
+            border-color: gray;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        ol {
+            border-right: 1px solid gray;
+            border-color: gray;
+            width: 100px;
+            margin: 0;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;    
+        }
+    </style>
+</head>
+<body>
+   <h1><a href="./html.html">Web</a></h1> 
+   <div id="grid">
+   <ol>
+       <li><a href="./html.html">HTML</a></li>
+       <li><a href="./css.html">CSS</a></li>
+       <li><a href="./javascript.html">Javascript</a></li>
+   </ol>
+   <div id='article'>
+       <h2>HTML</h2>
+       <p>
+        Hypertext Markup Language (<a href="https://en.wikipedia.org/wiki/HTML">HTML</a>) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+        HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.
+       </p>
+       <img src="./html.png">
+   </div>
+   </div>
+</body>
+</html>
