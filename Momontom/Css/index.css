@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-image: url("../Image/2.jpg");
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header {
+  height: 75px;
+}
+
+.contents {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform-origin: 50%, 50%; */
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.js-clock {
+  margin: 0;
+  color: white;
+}
+
+.js-greeting {
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
